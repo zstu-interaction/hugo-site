@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "https://hugo-site.now.sh/"
 languageCode = "en-us"
 title = "我的博客"
 theme = "slim"
