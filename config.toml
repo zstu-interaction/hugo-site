@@ -1,4 +1,17 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
-title = "My New Hugo Site"
-theme = "ananke"
+title = "我的博客"
+theme = "slim"
+
+
+[params]
+  Subtitle = "wode bke "
+  # GithubID = "Your Github ID"
+  # TwitterID = "Your Twitter ID"
+  # AnalyticsID = "Your Google Analytics tracking code"
+  # DisqusShortname = "Your Disqus shortname"
+  Summary = true  # takes true or false
+  Content = false  # takes true or false
+  # if both are set to true, summary is shown.
+  FooterMsg = "Copyright Me 2020. Powered by Hugo."
+  mainSections = ["posts"]
